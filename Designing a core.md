@@ -1,4 +1,4 @@
-p# What is smallest core
+# What is smallest core
 
  If we talk about smallest and simplest core 
  it doesn't have any pipelining,not a heavy 
