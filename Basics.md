@@ -2,7 +2,7 @@
 
  when I write a program what happens
  
-   ``` text 
+  
           program
              |
      compiler/assembler
@@ -12,7 +12,7 @@
          CPU core
              |
           Result=a
-      ```
+      ``` 
 
 
  Basically what happens inside a core. 
