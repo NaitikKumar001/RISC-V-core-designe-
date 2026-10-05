@@ -199,3 +199,20 @@ module program_counter_tb;
 
 endmodule
 ```
+
+# Explanation 
+-clk → clock signal; PC updates on every rising edge.
+-reset → puts PC back to 0.
+-pc → current instruction address.
+-next_pc → address that PC will take on the next clock cycle.
+-always_ff @(posedge clk) → PC is a
+
+-sequential element, so it changes on the clock edge.
+
+Same as we can give hardware description of other components using SystemVerilog HDL
+
+
+
+
+
+
