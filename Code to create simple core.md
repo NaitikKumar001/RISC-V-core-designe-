@@ -623,3 +623,5 @@ The basic flow is:
        |         |
     Output    Waveform
 ```
+I use this simulater 
+[Open VeriSim Simulator](https://senolgulgonul.github.io/verisim/)
