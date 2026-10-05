@@ -69,7 +69,8 @@ always_ff @(posedge clk) begin
     q<=d;
   end
 ```
-```Meaning
+```
+Meaning
 -》On every rising clock edge the value of
 'd' store in 'q'
 
@@ -86,7 +87,8 @@ always_ff @(posedge clk) begin
         pc<= next_pc;
   end
 ```
-```Meaning
+```
+Meaning
   cycle1 , PC = 1000
   cycle2 , PC = 1004
   cycle3 , PC = 1008
@@ -100,6 +102,8 @@ always_ff @(posedge clk) begin
      result = a+b
   end
 ```
-```Mwaning
+```
+Mwaning
   According to current input calculate
   result continuously
+```
