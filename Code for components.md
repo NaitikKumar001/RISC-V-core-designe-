@@ -201,6 +201,7 @@ endmodule
 ```
 
 # Explanation 
+```text
 -clk → clock signal; PC updates on every rising edge.
 -reset → puts PC back to 0.
 -pc → current instruction address.
@@ -210,7 +211,7 @@ endmodule
 -sequential element, so it changes on the clock edge.
 
 Same as we can give hardware description of other components using SystemVerilog HDL
-
+```
 
 
 
