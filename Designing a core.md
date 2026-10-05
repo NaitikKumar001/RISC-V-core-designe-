@@ -94,9 +94,16 @@ then
    target address
 target address = pc+offset
 
-OFFSET——》it tells 'current address sa               kitna aaga ya peecha jaana hai'
+OFFSET——》it tells 'current address sa    kitna aaga ya peecha jaana hai'
 
+EXAMPLE:-
 
+lw x5, 20(x10)
+here,
+x10 = Base Address
+20  = Offset
+
+Memory Address = x10 + 20
 
 
 
