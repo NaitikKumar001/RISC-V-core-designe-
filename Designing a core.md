@@ -1,4 +1,4 @@
-# What is smallest core
+p# What is smallest core
 
  If we talk about smallest and simplest core 
  it doesn't have any pipelining,not a heavy 
@@ -73,5 +73,37 @@ It only Support RV32I Extension
             |__ false—》pc+4
 ```
 
+# How Pc and Pc update works?
+Pc update gives the next instruction to PC
+- In case of normal instruction like add x5,x7,x2
+  next_pc= pc+4
 
+-But if branch/jump instructions are used 
+then
+```text
+            FETCH
+              |
+.           DECODE
+              |
+          EXICUTE [check branch condition] 
+              |
+        ——————————————————
+       |                  |
+      YES.                NO
+   then calculate.      next_pc = pc+4
+   target address
+target address = pc+offset
+
+OFFSET——》it tells 'current address sa               kitna aaga ya peecha jaana hai'
+
+
+
+
+
+
+
+
+
+
+  
 
